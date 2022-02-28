@@ -1,0 +1,94 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(4, 151, 209);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    border-bottom: thick ridge lightgray;
+    text-align: right;
+    margin: 0px;
+}
+
+nav button {
+    background-color: rgb(8, 146, 201);
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#signup {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+    margin: auto;
+    width: auto;
+}
+
+form {
+    background-color: white;
+    margin: auto;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.reg_inp {
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: 0;
+    width: 15em;
+    padding: 10px;
+}
+
+input {
+    margin: 10px;
+    width: 17em;
+    height: 30px;
+}
+
+#register {
+    background-color: rgb(8, 146, 201);
+    color: white;
+    border-radius: 5px;
+    width: 19em;
+    height: 2em;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    float: left;
+    margin-left: 35px;
+}
+
+img {
+    border-radius: 100%;
+    height: 30px;
+    padding: 10px;
+}
